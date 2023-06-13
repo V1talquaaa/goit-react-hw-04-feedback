@@ -1,0 +1,34 @@
+form {
+    padding: 15px;
+}
+input {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    margin-bottom: 10px;
+    
+}
+
+button {
+    background-color: rgb(122, 122, 201);
+    padding: 5px 20px;
+    color: #f1e6e6;
+    border-radius: 5px;
+}
+button:disabled {
+background-color: rgba(91, 92, 94, 0.418);
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkbox>label {
+    margin-left: 10px;
+}
+
+.radio {
+    display: flex;
+}
